@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+.logo img {
+    height: 90px;
+    margin: -20%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.user-actions {
+    font-size: 14px;
+}
+
+.user-actions .register {
+    color: #00a82d;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.user-actions .login {
+    color: #00a82d;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #00a82d;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #00a82d;
+    color: white;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-register {
+    display: inline-block;
+    background-color: white;
+    color: #00a82d;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-image img {   
+    width: 500px;
+    height: 400px;
+}
+
+
+footer {
+    background-color: #00a82d;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
